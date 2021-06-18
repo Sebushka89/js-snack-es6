@@ -21,7 +21,7 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 
 var  minPeso = negozioBici[0];
 
-for (var i = 1; i < negozioBici.length; i ++) {
+for (var i = 0; i < negozioBici.length; i ++) {
     if (negozioBici[i].peso < minPeso.peso){
         minPeso = negozioBici[i];
     }
@@ -49,7 +49,7 @@ const negozioBici = [
 
 let  minPeso = negozioBici[0];
 
-for (let i = 1; i < negozioBici.length; i ++) {
+for (let i = 0; i < negozioBici.length; i ++) {
     
     const{peso} = negozioBici[i];
 
