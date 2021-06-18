@@ -31,15 +31,15 @@ const randNum = (min , max ) => Math.floor(Math.random()*( max - min + 1) + min)
 const newAr = [];
 
 for (let i = 0; i < squadre.length; i++){
-    let {nome, falli} = squadre[i];
-    let punti = randNum(1, 10);
-    let falli = randNum(1, 15);
+    squadre[i].punti = randNum(1, 10);
+    squadre[i].falli = randNum(1, 15);
     // per cambiare l'array di oggetti squadre
-    squadre[i].punti = punti;
-    squadre[i].falli = falli;
     // serve per costruire il nuovo array di oggetti
-    const elemento = { nome , falli};
-    newAr.push(elemento);
+    const { nome , falli} =squadre[i];
+    newAr[i]={
+        nome,
+        falli
+    };
 }
 
 console.log(squadre);
