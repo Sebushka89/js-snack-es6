@@ -35,7 +35,7 @@ for (let i = 0; i < squadre.length; i++){
     squadre[i].falli = randNum(1, 15);
     // per cambiare l'array di oggetti squadre
     // serve per costruire il nuovo array di oggetti
-    const { nome , falli} =squadre[i];
+    const { nome , falli} = squadre[i];
     newAr[i]={
         nome,
         falli
