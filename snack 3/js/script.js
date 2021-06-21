@@ -34,7 +34,7 @@ var tableHTML = document.querySelector('.table-container');
 
 for (let i = 0; i < squadre.length; i++){
     squadre[i].punti = randNum(1, 100);
-    squadre[i].falli = randNum(1, 100);
+    squadre[i].falli = randNum(1, 25                 );
     // per cambiare l'array di oggetti squadre
     // serve per costruire il nuovo array di oggetti
     const { nome ,punti, falli} = squadre[i];

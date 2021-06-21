@@ -19,7 +19,7 @@
 
 .table-container ul li {
     border: 1px #ccc solid;
-    flex-basis: calc(100vw/3);
+    flex-basis: calc(100%/3);
 }
 .yellow {
     background-color: yellow;
